@@ -1,7 +1,7 @@
-var appConfig = {  
+var appConfig = {
     BaseURL: "../../../" 
 }
-// window.CESIUM_BASE_URL = appConfig.BaseURL + "ThirdParty/Cesium/";
+window.CESIUM_BASE_URL = appConfig.BaseURL + "ThirdParty/Cesium/";
 //准备
 var homePosition = [109.88, 38.18, 300000];//初始位置
 var viewer = null;
